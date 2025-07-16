@@ -1,11 +1,11 @@
 import { Button } from "@/components/ui/button";
+import HeroSection from "@/components/ui/HeroSection";
 import Link from "next/link";
 
 export default function Home() {
   return (
     <div>
-      <h1>Hello from Pizza Bites</h1>
-      <Button><Link href="/login">Login</Link></Button>
+      <HeroSection/>
     </div>
   );
 }
