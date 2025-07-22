@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import { Button } from "./button";
+import { Button } from "./ui/button";
 import { motion } from "framer-motion";
 
 export default function HeroSection() {

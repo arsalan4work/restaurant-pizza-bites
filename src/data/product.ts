@@ -118,3 +118,22 @@ export const beveragesProducts: Product[] = [
       price: 6,
     },
   ];
+
+
+export const extras = {
+  sauces: [
+    { name: "Garlic Sauce", price: 5 },
+    { name: "BBQ Sauce", price: 5 },
+    { name: "Spicy Mayo", price: 5 },
+  ],
+  toppings: [
+    { name: "Extra Cheese", price: 10 },
+    { name: "Olives", price: 7 },
+    { name: "Mushrooms", price: 5 },
+  ],
+  fries: [
+    { name: "Regular Fries", price: 12 },
+    { name: "Curly Fries", price: 15 },
+    { name: "Loaded Fries", price: 20 },
+  ],
+};

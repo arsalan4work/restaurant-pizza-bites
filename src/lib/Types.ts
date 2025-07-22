@@ -1,7 +1,8 @@
-export interface Product {
-    id: string;
-    name: string;
-    description: string;
-    image: string;
-    price: number;
-  }
+export type Product = {
+  id: string;
+  name: string;
+  description: string;
+  price: number;
+  image: string;
+  badge?: string; // <-- optional
+};
